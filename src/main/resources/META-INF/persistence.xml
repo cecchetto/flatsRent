@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	version="1.0">
+	<persistence-unit name="personPersistenceUnit"
+		transaction-type="RESOURCE_LOCAL">
+		<mapping class="com.miele.model.ProvinciaFlatBean"></mapping>
+		<mapping class="com.miele.model.FotoFlatBean"></mapping>
+		<mapping class="com.miele.model.InfoFlatBean"></mapping>
+		<mapping class="com.miele.model.LogInAdminBean"></mapping>
+	</persistence-unit>
+</persistence>
