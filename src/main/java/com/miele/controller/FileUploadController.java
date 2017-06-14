@@ -27,7 +27,7 @@ import com.miele.utility.UplodedFile;
 
 @Controller
 public class FileUploadController {
-	String x;
+	
 	ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
 	UplodedFile ufile = new UplodedFile();
 	InfoFlatDao infoFlatDao = context.getBean(InfoFlatDao.class);
